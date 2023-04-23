@@ -69,6 +69,7 @@ p {
     padding: 12px 20px;
     display: inline-block;
     outline: none;
+    border-radius: 75px;
 }
 
 a.menu-link { display: none; }
@@ -162,7 +163,6 @@ a.menu-link { display: none; }
     z-index: 12;
     width: 100%;
     top: 0;
-    border-radius: 75px;
 }
 
 .main-header .logo {
