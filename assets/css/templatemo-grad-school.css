@@ -69,7 +69,6 @@ p {
     padding: 12px 20px;
     display: inline-block;
     outline: none;
-    border-radius: 75px;
 }
 
 a.menu-link { display: none; }
