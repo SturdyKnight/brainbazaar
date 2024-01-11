@@ -1,0 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-heading h2 {
+    color: #343a40;
+}
+
+.semester {
+    margin-bottom: 30px;
+}
+
+.subject {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Add your header, navigation, and footer styles as needed */
