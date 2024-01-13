@@ -852,6 +852,31 @@ section.courses .item .down-content .text-button-free a {
     font-size: 13px;
 }
 
+.custom-column {
+    height: 300px; /* Adjust the height as needed */
+}
+.item img {
+    height: 200px; /* Adjust the height as needed */
+    width: 100%;
+    object-fit: cover;
+
+
+}
+.down-content {
+    height: 430px;
+    padding-bottom: 20px; /* Adjust the height as needed */
+}
+.item {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.item:hover {
+    transform: scale(1.05); /* Adjust the scaling factor as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the shadow as needed */
+    
+}
+
+
 section.courses .owl-carousel .owl-nav {
     display: none;
 }
