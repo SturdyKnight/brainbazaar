@@ -80,6 +80,8 @@ p {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 .button-86::after,
