@@ -70,10 +70,11 @@ p {
   overflow: hidden;
   font-size: 19px;
   cursor: pointer;
-  color: black;
+  color: #14142b;
   z-index: 1;
   margin-left: 30px;
   margin-top: 10px;
+  border-radius: 50px;
 }
 
 .button:before {
