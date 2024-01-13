@@ -1,0 +1,14 @@
+.custom-column {
+    height: 300px; /* Adjust the height as needed */
+}
+.item img {
+    height: 200px; /* Adjust the height as needed */
+    width: 100%;
+    object-fit: cover;
+
+
+}
+.down-content {
+    height: 390px;
+    padding-bottom: 20px; /* Adjust the height as needed */
+}
