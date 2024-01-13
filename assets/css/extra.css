@@ -6,8 +6,9 @@
     width: 100%;
     object-fit: cover;
 
-    
+
 }
 .down-content {
-    height: 300px; /* Adjust the height as needed */
+    height: 390px;
+    padding-bottom: 20px; /* Adjust the height as needed */
 }
