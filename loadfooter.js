@@ -1,13 +1,15 @@
-// loadFooter.js
+// loadfooter.js
 
 document.addEventListener("DOMContentLoaded", function () {
+    console.log("Attempting to load footer...");
+    
     // Function to dynamically load the footer
     function loadFooter() {
         // Create a new XMLHttpRequest object
         var xhr = new XMLHttpRequest();
 
         // Set the path to your footer.html file
-        xhr.open("GET", "footer.html", true);
+        xhr.open("GET", "/footer.html", true);
 
         // Define what happens on successful data submission
         xhr.onload = function () {
