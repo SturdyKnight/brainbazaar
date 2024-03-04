@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var xhr = new XMLHttpRequest();
 
         // Set the path to your footer.html file
-        xhr.open("GET", ('/assets/Extras/foot.html'), true);
+        xhr.open("GET", ('/assets/foot.html'), true);
 
         // Define what happens on successful data submission
         xhr.onload = function () {
