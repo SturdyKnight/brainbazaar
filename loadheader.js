@@ -1,13 +1,14 @@
 // loadHeader.js
 
 document.addEventListener("DOMContentLoaded", function () {
+    console.log("Attempting to load Header...");
     // Function to dynamically load the header
     function loadHeader() {
         // Create a new XMLHttpRequest object
         var xhr = new XMLHttpRequest();
 
         // Set the path to your header.html file
-        xhr.open("GET", "./assets/Extras/head.js", true);
+        xhr.open("GET", ('assets/Extras/head.html'), true);
 
         // Define what happens on successful data submission
         xhr.onload = function () {
