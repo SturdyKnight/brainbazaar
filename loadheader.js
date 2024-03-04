@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var xhr = new XMLHttpRequest();
 
         // Set the path to your header.html file
-        xhr.open("GET", ('assets/Extras/head.html'), true);
+        xhr.open("GET", ('/assets/Extras/head.html'), true);
 
         // Define what happens on successful data submission
         xhr.onload = function () {
