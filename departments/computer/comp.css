@@ -7,7 +7,30 @@ body {
 
 /* Basic */
 
-
+.subheader-nav {
+    background-color: #101729; /* Change the background color */
+    padding: 10px; /* Add some padding for better visibility */
+}
+.subheader-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.subheader-nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+.subheader-nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.subheader-nav ul li a:hover,
+.subheader-nav ul li a:focus {
+    color: blue; /* Change the color on hover */
+}
+.subheader-nav ul li a:active {
+    color: red; /* Change the color on click */
+}
 a {
 	color: #7DB0DE;
     text-decoration: none;
