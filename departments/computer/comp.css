@@ -64,6 +64,31 @@ p {
     font-weight: 600;
 }
 
+.subheader {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
+
+.subheader-nav {
+    text-align: center;
+}
+
+.subheader-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.subheader-nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.subheader-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
 
 
 .section-heading {
