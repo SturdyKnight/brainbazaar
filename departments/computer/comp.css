@@ -47,6 +47,11 @@ p {
     flex-direction: column;
     margin-right: 40px;
     margin-left: 40px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.1); 
 }
 
 .card .main-content {
