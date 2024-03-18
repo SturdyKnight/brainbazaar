@@ -15,20 +15,18 @@
     <style>
         .container1 {
             display: flex;
-            justify-content: space-between;
             flex-wrap: wrap; /* Allow items to wrap to next line */
+            justify-content: center; /* Center align items */
         }
 
         .card {
-            width: 30%;
-            margin-bottom:78px;
-            margin-top: -12%;
+            width: calc(50% - 20px); /* Adjust width based on screen size */
+            margin: 10px; /* Add some margin between cards */
             border: 1px solid #ccc;
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
 
         .heading {
             font-size: 18px;
@@ -37,13 +35,9 @@
         }
 
         /* Media query for smaller screens */
-        @media (max-width: 720px) {
-            .container1 {
-                flex-direction: column; 
-            }
-
+        @media (max-width: 576px) {
             .card {
-                width: 80%
+                width: calc(100% - 20px); /* Take full width on smaller screens */
             }
         }
     </style>
@@ -65,19 +59,15 @@
         </div>
     </section>
 
-    <div class="container1" style="padding-bottom: 50px;">
-        <a href="./I-Scheme.html">
-            <div class="card">
-                <div class="main-content">
-                    <p class="heading">I - Scheme </p>
-                </div>
+    <div class="container1">
+        <a href="./I-Scheme.html" class="card">
+            <div class="main-content">
+                <p class="heading">I - Scheme </p>
             </div>
         </a>
-        <a href="./K-Scheme.html">
-            <div class="card">
-                <div class="main-content">
-                    <p class="heading">K - Scheme</p>
-                </div>
+        <a href="./K-Scheme.html" class="card">
+            <div class="main-content">
+                <p class="heading">K - Scheme</p>
             </div>
         </a>
     </div>
@@ -98,7 +88,7 @@
     <script src="../../assets/js/slick-slider.js"></script>
     <script src="../../assets/js/custom.js"></script>
    
-    <!-- This place i have called the footer -->
+    <!-- This place I have called the footer -->
     
 
 </body>
