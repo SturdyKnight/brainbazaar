@@ -6,7 +6,9 @@ body {
 }
 
 /* Basic */
-
+.btn1{
+    margin-bottom: 20px;
+}
 .select-link {
     color: #fff;
     font-weight: bold;
