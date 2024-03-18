@@ -215,7 +215,7 @@ a.menu-link { display: none; }
 .main-header {
     background-color: rgb(20,21,42);
     height: 80px;
-    position: fixed;
+    /* position: fixed; */
     z-index: 12;
     width: 100%;
     top: 0;
@@ -339,7 +339,7 @@ a.menu-link { display: none; }
 footer {
     background-color: rgb(20, 21, 42);
     text-align: center;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
