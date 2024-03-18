@@ -423,7 +423,7 @@ a.menu-link { display: none; }
 footer {
     background-color: rgb(20, 21, 42);
     text-align: center;
-    position: relative;
+    position:fixed;
     bottom: 0;
     width: 100%;
 }

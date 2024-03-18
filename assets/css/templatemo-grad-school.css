@@ -159,8 +159,9 @@ a.menu-link { display: none; }
 
 .main-header {
     background-color: rgb(20,21,42);
-    height: 80px;
-    position: fixed;
+    height: 70px;
+    margin-bottom: 70px;
+    position:fixed;
     z-index: 12;
     width: 100%;
     top: 0;
