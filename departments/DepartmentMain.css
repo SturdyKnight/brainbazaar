@@ -109,14 +109,13 @@ p {
 }
 .container-data {
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center ;
+    align-items: center;
 }
 .card-data {
     width: 90%;
     height: auto;
     padding: 20px;
-    margin-left: 50px;
     margin-bottom: 100px;
     color: white;
     background: linear-gradient(#14152A, #14152A) padding-box,
@@ -124,7 +123,7 @@ p {
     border: 2px solid transparent;
     border-radius: 8px;
     display: flex;
-  }
+}
   
   .card-data .main-content {
     flex: 1;
