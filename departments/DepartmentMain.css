@@ -51,6 +51,39 @@ p {
     font-size: 13px;
     line-height: 22px;
 }
+.container-data {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.card-data {
+    width: 65%;
+    height: auto;
+    padding: 20px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    color: white;
+    background: linear-gradient(#14152A, #14152A) padding-box,
+                linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    display: flex;
+  }
+  
+  .card-data .main-content {
+    flex: 1;
+  }
+  
+  .card-data .heading {
+    font-size: 20px;
+
+    font-weight: 600;
+  }
+  
+  .card-data .categories {
+    display: flex;
+    gap: 8px;
+  }
 
 .container1 {
     display: flex;
