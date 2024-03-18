@@ -12,88 +12,215 @@
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
 
-    <style>
-        .container1 {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap; /* Allow items to wrap to next line */
-        }
-
-        .card {
-            width: 30%;
-            margin-bottom:78px;
-            margin-top: -12%;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-
-        .heading {
-            font-size: 18px;
-            margin: 0;
-            text-align: center;
-        }
-
-        /* Media query for smaller screens */
-        @media (max-width: 720px) {
-            .container1 {
-                flex-direction: column; 
-            }
-
-            .card {
-                width: 80%
-            }
-        }
-    </style>
 </head>
 
 <body>
     <link rel="stylesheet" href="../../DepartmentMain.css" type="text/css">
     <script src="../../../loadheader.js"></script>
-
     <section class="section computer-department" data-section="computer-department">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2>Computer Department</h2>
+                        <h2>Syllabus</h2>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <div class="container1" style="padding-bottom: 50px;">
-        <a href="./I-Scheme.html">
-            <div class="card">
-                <div class="main-content">
-                    <p class="heading">I - Scheme </p>
-                </div>
+    <nav class="navbar" style="margin-top: -60px;">
+        <div class="container" style="width: 90%;">
+            <button class="btn btn-outline-light" onclick="scrollToSemester('semester1')">Semester 1</button>
+            <button class="btn btn-outline-light" onclick="scrollToSemester('semester2')">Semester 2</button>
+            <button class="btn btn-outline-light" onclick="scrollToSemester('semester3')">Semester 3</button>
+            <button class="btn btn-outline-light" onclick="scrollToSemester('semester4')">Semester 4</button>
+            <button class="btn btn-outline-light" onclick="scrollToSemester('semester5')">Semester 5</button>
+            <button class="btn btn-outline-light" onclick="scrollToSemester('semester6')">Semester 6</button>
+        </div>
+    </nav>
+    <hr>
+    <div class="container-data" id="semester1">
+        <div class="card-data">
+            <div class="main-content">
+                <p class="heading">Semester 1</p>
+                <table class="data-table">
+                    <tr >
+                        <td class="td1">Item 1</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr> 
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </table>
             </div>
-        </a>
+        </div>     
     </div>
-
-
-    <script src="../../../loadfooter.js"></script>
-
-    <!-- Include your footer and scripts -->
-
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="../../../vendor/jquery/jquery.min.js"></script>
-    <script src="../../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../../../assets/js/isotope.min.js"></script>
-    <script src="../../../assets/js/owl-carousel.js"></script>
-    <script src="../../../assets/js/lightbox.js"></script>
-    <script src="../../../assets/js/tabs.js"></script>
-    <script src="../../../assets/js/video.js"></script>
-    <script src="../../../assets/js/slick-slider.js"></script>
-    <script src="../../../assets/js/custom.js"></script>
-   
-    <!-- This place i have called the footer -->
+    <div class="container-data" id="semester2">
+        <div class="card-data">
+            <div class="main-content">
+                <p class="heading">Semester 2</p>
+                <table class="data-table">
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr> 
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <tr >
+                        <td class="td1">Item 1</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </table>
+            </div>
+        </div>     
+    </div>
+    <div class="container-data" id="semester3">
+        <div class="card-data">
+            <div class="main-content">
+                <p class="heading">Semester 3</p>
+                <table class="data-table">
+                    <tr >
+                        <td class="td1">Item 1</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </table>
+            </div>
+        </div>     
+    </div>
+    <div class="container-data" id="semester4">
+        <div class="card-data">
+            <div class="main-content">
+                <p class="heading">Semester 4</p>
+                <table class="data-table">
+                    <tr >
+                        <td class="td1">Item 1</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </table>
+            </div>
+        </div>     
+    </div>
+    <div class="container-data"id="semester5">
+        <div class="card-data">
+            <div class="main-content">
+                <p class="heading">Semester 5</p>
+                <table class="data-table">
+                    <tr >
+                        <td class="td1">Item 1</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </table>
+            </div>
+        </div>     
+    </div>
+    <div class="container-data"id="semester6">
+        <div class="card-data">
+            <div class="main-content">
+                <p class="heading">Semester 6</p>
+                <table class="data-table">
+                    <tr >
+                        <td class="td1">Item 1</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Item 2</td>
+                        <td class="td1"><a href="#"><span class="select-link"> Download </span></a></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </table>
+            </div>
+        </div>     
+    </div>
     
 
+    <script src="../../../loadfooter.js"></script>
 </body>
+<!-- Include your footer and scripts -->
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="../../../vendor/jquery/jquery.min.js"></script>
+<script src="../../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../../../assets/js/isotope.min.js"></script>
+<script src="../../../assets/js/owl-carousel.js"></script>
+<script src="../../../assets/js/lightbox.js"></script>
+<script src="../../../assets/js/tabs.js"></script>
+<script src="../../../assets/js/video.js"></script>
+<script src="../../../assets/js/slick-slider.js"></script>
+<script src="../../../assets/js/custom.js"></script>
+
+<!-- This place i have called the footer -->
+
+<script>
+    function scrollToSemester(semesterId) {
+        var element = document.getElementById(semesterId);
+        var offset = element.getBoundingClientRect().top;
+        var navbarHeight = document.querySelector('.navbar').offsetHeight;
+        var windowHeight = window.innerHeight;
+        window.scrollTo({
+            top: window.pageYOffset + offset - navbarHeight - (windowHeight / 2),
+            behavior: 'smooth'
+        });
+    }
+</script>
 
 </html>
