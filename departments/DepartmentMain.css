@@ -30,6 +30,7 @@ body {
 
 .tr{
     padding: 10px;
+    text-align: center;
 }
 .td{
     padding: 10px;
@@ -511,7 +512,7 @@ a.menu-link { display: none; }
 footer {
     background-color: rgb(20, 21, 42);
     text-align: center;
-    position:fixed;
+    /* position:fixed; */
     bottom: 0;
     width: 100%;
 }
