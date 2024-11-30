@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>404 Error Page - Brain Bazaar</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
+		rel="stylesheet">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="/css/style.css" />
+
+</head>
+
+<body>
+
+	<div class="vertical-center">
+		<div class="container">
+			<div id="notfound" class="text-center ">
+				<img src="/css/4779536.png">
+				<h1 id="name">Brain Bazaar</h1>
+				<h1>404</h1>
+				<img class="emoji-gif" src="/css/ezgif-1-3d28ff327c.gif"
+					alt="Crying Emoji">
+				<br>
+				<h2>Oops! Page Not Be Found</h2>
+				<p>Sorry but the page you are looking for does not exist.</p>
+				<a href="../index.html">Back to homepage</a>
+			</div>
+		</div>
+	</div>
+	<script>
+		// Get the theme from local storage if it's available
+		const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+
+		// If the user's system theme is dark, we set it to the dark theme
+		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches && !currentTheme) {
+			document.body.classList.add('dark-mode');
+		}
+
+		// If there's a theme in local storage, we use that theme
+		if (currentTheme) {
+			document.body.classList.add(currentTheme);
+		}
+
+		// When the user clicks on the checkbox, we toggle the theme and save it to local storage
+		document.getElementById('checkbox').addEventListener('change', function (event) {
+			if (event.target.checked) {
+				document.body.classList.add('dark-mode');
+				localStorage.setItem('theme', 'dark-mode');
+			} else {
+				document.body.classList.remove('dark-mode');
+				localStorage.setItem('theme', 'light-mode');
+			}
+		});
+
+	</script>
+</body>
+
+</html>

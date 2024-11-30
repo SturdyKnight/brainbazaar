@@ -5,6 +5,29 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*ai Button*/
+.glowing-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #47a7fb;
+  color: #25273a;
+  border: none;
+  cursor: pointer;
+  transition: all 1s;
+  box-shadow: 0 0 10px #7cb0df, 0 0 40px #7cb0df, 0 0 80px #7cb0df;
+}
+
+.glowing-button:hover {
+  background-color: #25273a;
+  color: #ffffff;
+  box-shadow: 0 0 20px #7cb0df, 0 0 30px #7cb0df, 0 0 40px #7cb0df;
+}
+
+.glowing-button:active {
+  background-color: #7cb0df;
+  box-shadow: 0 0 5px #7cb0df, 0 0 10px #7cb0df, 0 0 15px #7cb0df, 0 0 20px #7cb0df;
+}
+
 /* Basic */
 
 a {

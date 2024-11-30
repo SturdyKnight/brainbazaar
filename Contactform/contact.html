@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="../Contactform/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f8f8;
+        }
+
+        .contact-form {
+            width: 400px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 15px;
+            /* Increased border radius for a modern look */
+            box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 92%;
+            margin: 10px;
+            padding: 12px;
+            margin-left: -0px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .contact-form textarea {
+            height: 150px;
+            /* Increased height for the textarea */
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            border-color: #4A90E2;
+            outline: none;
+        }
+
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #15152b;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        .contact-form button:hover {
+            background-color: #7cb2da;
+        }
+
+        img {
+            width: 200px;
+        }
+
+        label {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form class="contact-form" action="https://formspree.io/f/xleqopzy" method="POST">
+        <center><img src="../Contactform/logo.png" alt="AI Brain Bazaar"></center>
+        <center>
+          <h1 style="color: #15152b;">Brain Bazaar</h1>
+        </center>
+        <label for="fullname" style="font-weight: bolder; color: #15152b;">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
+        <label for="email" style="font-weight: bolder; color: #15152b;">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Email Address" required>
+        <label for="message" style="font-weight: bolder; color: #15152b;">Your Feedback:</label>
+        <textarea id="message" name="message" placeholder="Your Feedback" required></textarea>
+        <input type="hidden" name="_subject" value="New submission from your website">
+        <input type="hidden" name="_autoresponse" value="Thank you for your message! We'll get back to you as soon as possible.">
+        <button type="submit">Submit</button>
+      </form>
+    <script>
+    </script>
+</body>
+
+</html>

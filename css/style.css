@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #25273a;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  transition: background-color 0.9s ease;
+}
+
+.container {
+  text-align: center;
+}
+
+#notfound {
+  max-width: 300px;
+}
+
+
+#notfound h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+#notfound h2 {
+  font-size: 16.96px;
+  font-weight: 400;
+}
+
+#notfound p {
+  font-size: 12.92px;
+  color: #fff;
+}
+
+#notfound a {
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #fff; /* Change text color to white for contrast */
+  background-color: #14142b; /* Change background color to #14142b */
+  padding: 10px 40px;
+  margin-top: 20px;
+  transition: 0.2s;
+}
+
+#notfound a:hover {
+  background-color: #7cb0df; /* Change hover background color to white */
+  color: #fff; /* Change hover text color to #14142b */
+}
+
+.emoji-gif {
+  width: 80.77px; /* Adjust as needed */
+  height: auto; /* This will maintain the aspect ratio */
+  display: block; /* This will allow us to use margin auto for centering */
+  margin: 0 auto; /* This centers the image horizontally */
+}
+
+img{
+  width: 177.69px;
+  margin-top: -60px;
+}
